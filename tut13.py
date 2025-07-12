@@ -25,3 +25,6 @@ print()
 
 # Flatten function
 
+var4=np.array([[1,2],[3,4],[5,6]])
+print(var4.flatten(order='F'))
+print(var4.flatten(order='C'))
